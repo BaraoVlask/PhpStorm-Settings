@@ -1,0 +1,11 @@
+<templateSet group="Custom">
+  <template name="ech" value="&lt;?php echo &quot;&quot;; ?&gt;" description="Echo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+      <option name="PHP String Literal" value="true" />
+    </context>
+  </template>
+</templateSet>
