@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Errors" type="Log" />
       <mapping pattern="Payment" type="PHP" />
+      <mapping pattern="times" type="PHP" />
       <mapping pattern="Expirados.log" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
