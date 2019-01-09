@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
+</keymap>
