@@ -1,0 +1,60 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="js">
+      <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().andNot(jsArgument("executeSql", 0)).andNot(asAssignedValue("text", "flash.data.SQLStatement")).andNot(asAssignedValue("text", "*", "dbStatement")).andNot(asAssignedValue("text", "*", "statement", "st")).withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .* SET)|((CREATE|DROP|ALTER) +((TEMPORARY )?TABLE|(UNIQUE )?INDEX))) .*[\"'`]?"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="js">
+      <display-name>&quot;SQL tagged string&quot;</display-name>
+      <place disabled="true"><![CDATA[taggedString("sql").andNot(jsArgument("executeSql", 0)).andNot(asAssignedValue("text", "flash.data.SQLStatement")).andNot(asAssignedValue("text", "*", "dbStatement")).andNot(asAssignedValue("text", "*", "statement", "st"))]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="js">
+      <display-name>HTML5 SQL Database (SQLite)</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(jsArgument("executeSql", 0))]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="js">
+      <display-name>flash.data (SQLite)</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "*", "dbStatement"))]]></place>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "*", "statement", "st").withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .*SET)|((CREATE|DROP|ALTER) +(TABLE|INDEX))) .*[\"'`]?")))]]></place>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="php">
+      <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
+      <place disabled="true"><![CDATA[and(not(phpLiteralExpression("DQL")), phpLiteralMatchesBrics(" *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .* SET)|((CREATE|DROP|ALTER) +((TEMPORARY )?TABLE|(UNIQUE )?INDEX))) ~(.*[A-Za-z_][A-Za-z0-9_]*(\\\\|:).*)"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="php">
+      <display-name>&lt;&lt;&lt; SQL</display-name>
+      <place disabled="true"><![CDATA[phpLiteralExpression("SQL")]]></place>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regclass" fragment="SQL_TABLE_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regclass</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regconfig" fragment="SQL_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regconfig</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regdictionary" fragment="SQL_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regdictionary</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regnamespace" fragment="SQL_SCHEMA_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regnamespace</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regoper" fragment="SQL_OPERATOR_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regoper</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regoperator" fragment="SQL_OPERATOR_SIGNATURE" hosts="PostgreSQL">
+      <display-name>(?i)regoperator</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regproc" fragment="SQL_FUNCTION_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regproc</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regprocedure" fragment="SQL_FUNCTION_SIGNATURE" hosts="PostgreSQL">
+      <display-name>(?i)regprocedure</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regrole" fragment="SQL_ROLE_REFERENCE" hosts="PostgreSQL">
+      <display-name>(?i)regrole</display-name>
+    </injection>
+    <injection language="PostgreSQL" injector-id="sql" pattern="(?i)regtype" fragment="SQL_TYPE_ELEMENT" hosts="PostgreSQL">
+      <display-name>(?i)regtype</display-name>
+    </injection>
+  </component>
+</application>
