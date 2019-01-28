@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="rej" value="return new Response(json_encode([$CONTENT$]), 200, ['Content-Type' =&gt; 'application/json']);" description="return statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
