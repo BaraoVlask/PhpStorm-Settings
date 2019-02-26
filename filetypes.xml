@@ -6,6 +6,7 @@
       <mapping pattern="times" type="PHP" />
       <mapping pattern="tokens.txt" type="PLAIN_TEXT" />
       <mapping pattern="Expirados.log" type="PLAIN_TEXT" />
+      <mapping pattern="comentarios-itens" type="Twig" />
     </extensionMap>
   </component>
 </application>
