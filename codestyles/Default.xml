@@ -85,6 +85,7 @@
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="CLASS_BRACE_STYLE" value="1" />
     <option name="METHOD_BRACE_STYLE" value="1" />
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
     <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
@@ -107,7 +108,7 @@
     <option name="SPACE_BEFORE_CATCH_KEYWORD" value="false" />
     <option name="SPACE_BEFORE_FINALLY_KEYWORD" value="false" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="2" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
     <indentOptions>
