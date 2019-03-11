@@ -1,5 +1,7 @@
 <code_scheme name="Default" version="173">
-  <option name="RIGHT_MARGIN" value="999" />
+  <option name="RIGHT_MARGIN" value="125" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="SOFT_MARGINS" value="125" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
