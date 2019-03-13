@@ -38,8 +38,10 @@
     <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="BLANK_LINES_AROUND_CONSTANTS" value="1" />
     <option name="BLANK_LINES_AFTER_OPENING_TAG" value="1" />
+    <option name="SPACE_BETWEEN_TERNARY_QUEST_AND_COLON" value="true" />
     <option name="SPACE_BEFORE_CLOSURE_LEFT_PARENTHESIS" value="false" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+    <option name="SPACE_AFTER_COLON_IN_RETURN_TYPE" value="false" />
   </PHPCodeStyleSettings>
   <SqlCodeStyleSettings version="2">
     <option name="KEYWORD_CASE" value="0" />
@@ -89,6 +91,7 @@
     <option name="METHOD_BRACE_STYLE" value="1" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
     <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
     <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
