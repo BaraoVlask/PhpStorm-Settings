@@ -1,0 +1,14 @@
+<templateSet group="HTML/XML">
+  <template name="tnb" value="&lt;tr&gt;&#10;    &lt;td&gt;&#10;        &amp;nbsp;&#10;    &lt;/td&gt;&#10;&lt;/tr&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
