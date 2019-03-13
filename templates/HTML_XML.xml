@@ -1,5 +1,5 @@
 <templateSet group="HTML/XML">
-  <template name="tnb" value="&lt;tr&gt;&#10;    &lt;td&gt;&#10;        &amp;nbsp;&#10;    &lt;/td&gt;&#10;&lt;/tr&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="tnb" value="&lt;tr&gt;&#10;    &lt;td&gt;&#10;        &amp;nbsp;&#10;    &lt;/td&gt;&#10;&lt;/tr&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
@@ -11,7 +11,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="tde" value="&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; class=&quot;text-center&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;?php echo $data-&gt;data_extenso('Porto Alegre'); ?&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="tde" value="&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; class=&quot;text-center&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;?php echo $data-&gt;data_extenso('Porto Alegre'); ?&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
