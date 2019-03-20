@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7c6edfb-47f2-405f-b19f-77b4e1cb87dc" name="dev.servipas.com.br" url="http://dev.servipas.com.br">
+        <fileTransfer host="dev.servipas.com.br" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
