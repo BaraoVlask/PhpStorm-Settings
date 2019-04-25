@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="a99fd463-9c6d-4645-b60e-2ef943e8e187" name="Lab" url="http://lab.servipas.com.br">
+        <fileTransfer host="lab.servipas.com.br" port="22" rootFolder="/home/guilherme.billig/core" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
