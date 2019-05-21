@@ -1,5 +1,6 @@
 <application>
   <component name="SonarLintGlobalSettings">
+    <option name="autoTrigger" value="false" />
     <option name="excludedRules">
       <set>
         <option value="javascript:BitwiseOperators" />
@@ -118,6 +119,90 @@
         <option value="kotlin:S3923" />
         <option value="kotlin:S4144" />
         <option value="kotlin:S4663" />
+        <option value="php:S101" />
+        <option value="php:S1066" />
+        <option value="php:S1068" />
+        <option value="php:S107" />
+        <option value="php:S1075" />
+        <option value="php:S108" />
+        <option value="php:S1109" />
+        <option value="php:S1110" />
+        <option value="php:S1116" />
+        <option value="php:S1117" />
+        <option value="php:S112" />
+        <option value="php:S1125" />
+        <option value="php:S1126" />
+        <option value="php:S1134" />
+        <option value="php:S1135" />
+        <option value="php:S114" />
+        <option value="php:S1142" />
+        <option value="php:S1144" />
+        <option value="php:S1145" />
+        <option value="php:S115" />
+        <option value="php:S1172" />
+        <option value="php:S1185" />
+        <option value="php:S1192" />
+        <option value="php:S121" />
+        <option value="php:S125" />
+        <option value="php:S1264" />
+        <option value="php:S127" />
+        <option value="php:S1301" />
+        <option value="php:S131" />
+        <option value="php:S138" />
+        <option value="php:S1448" />
+        <option value="php:S1479" />
+        <option value="php:S1481" />
+        <option value="php:S1488" />
+        <option value="php:S1536" />
+        <option value="php:S1599" />
+        <option value="php:S1600" />
+        <option value="php:S1603" />
+        <option value="php:S1605" />
+        <option value="php:S1656" />
+        <option value="php:S1697" />
+        <option value="php:S1751" />
+        <option value="php:S1763" />
+        <option value="php:S1764" />
+        <option value="php:S1788" />
+        <option value="php:S1848" />
+        <option value="php:S1854" />
+        <option value="php:S1862" />
+        <option value="php:S1871" />
+        <option value="php:S1998" />
+        <option value="php:S2004" />
+        <option value="php:S2010" />
+        <option value="php:S2014" />
+        <option value="php:S2041" />
+        <option value="php:S2053" />
+        <option value="php:S2068" />
+        <option value="php:S2115" />
+        <option value="php:S2123" />
+        <option value="php:S2201" />
+        <option value="php:S2251" />
+        <option value="php:S2277" />
+        <option value="php:S2278" />
+        <option value="php:S2681" />
+        <option value="php:S2737" />
+        <option value="php:S2757" />
+        <option value="php:S2964" />
+        <option value="php:S3358" />
+        <option value="php:S3626" />
+        <option value="php:S3699" />
+        <option value="php:S3776" />
+        <option value="php:S3923" />
+        <option value="php:S3972" />
+        <option value="php:S3973" />
+        <option value="php:S3981" />
+        <option value="php:S3984" />
+        <option value="php:S4144" />
+        <option value="php:S4423" />
+        <option value="php:S4426" />
+        <option value="php:S4433" />
+        <option value="php:S4524" />
+        <option value="php:S4830" />
+        <option value="php:S836" />
+        <option value="php:S905" />
+        <option value="php:S907" />
         <option value="python:BackticksUsage" />
         <option value="python:ExecStatementUsage" />
         <option value="python:InequalityUsage" />
@@ -503,91 +588,6 @@
         <option value="squid:UselessImportCheck" />
         <option value="squid:UselessParenthesesCheck" />
       </set>
-    </option>
-    <option name="includedRules">
-      <set>
-        <option value="php:NoSonar" />
-        <option value="php:S100" />
-        <option value="php:S103" />
-        <option value="php:S104" />
-        <option value="php:S105" />
-        <option value="php:S1067" />
-        <option value="php:S1105" />
-        <option value="php:S1106" />
-        <option value="php:S1121" />
-        <option value="php:S1124" />
-        <option value="php:S113" />
-        <option value="php:S1131" />
-        <option value="php:S1151" />
-        <option value="php:S116" />
-        <option value="php:S117" />
-        <option value="php:S1200" />
-        <option value="php:S122" />
-        <option value="php:S126" />
-        <option value="php:S128" />
-        <option value="php:S1311" />
-        <option value="php:S134" />
-        <option value="php:S139" />
-        <option value="php:S1451" />
-        <option value="php:S1541" />
-        <option value="php:S1578" />
-        <option value="php:S1757" />
-        <option value="php:S1765" />
-        <option value="php:S1766" />
-        <option value="php:S1779" />
-        <option value="php:S1780" />
-        <option value="php:S1781" />
-        <option value="php:S1784" />
-        <option value="php:S1793" />
-        <option value="php:S1799" />
-        <option value="php:S1808" />
-        <option value="php:S1820" />
-        <option value="php:S1990" />
-        <option value="php:S1996" />
-        <option value="php:S1997" />
-        <option value="php:S2000" />
-        <option value="php:S2001" />
-        <option value="php:S2002" />
-        <option value="php:S2003" />
-        <option value="php:S2005" />
-        <option value="php:S2007" />
-        <option value="php:S2011" />
-        <option value="php:S2036" />
-        <option value="php:S2037" />
-        <option value="php:S2038" />
-        <option value="php:S2042" />
-        <option value="php:S2043" />
-        <option value="php:S2044" />
-        <option value="php:S2046" />
-        <option value="php:S2047" />
-        <option value="php:S2050" />
-        <option value="php:S2070" />
-        <option value="php:S2260" />
-        <option value="php:S2830" />
-        <option value="php:S2918" />
-        <option value="php:S3330" />
-        <option value="php:S3332" />
-        <option value="php:S3333" />
-        <option value="php:S3334" />
-        <option value="php:S3335" />
-        <option value="php:S3336" />
-        <option value="php:S3337" />
-        <option value="php:S3338" />
-        <option value="php:S3801" />
-        <option value="php:S4142" />
-        <option value="php:S4833" />
-        <option value="php:S881" />
-      </set>
-    </option>
-    <option name="sonarQubeServers">
-      <list>
-        <SonarQubeServer>
-          <option name="hostUrl" value="http://sonar.servipas.com.br" />
-          <token>df99df99df98df9edfcfdf9adfc9df9bdf92df92dfcedf99df93df9cdf9adf9edf92df9bdf9edf9fdfcbdfc8dfc8df93df9edf98df98dfc8df98df9adf9adfcfdf9edf92df98df92dfc9df9cdfc9dfcc</token>
-          <option name="name" value="Local" />
-          <organizationKey>default-organization</organizationKey>
-        </SonarQubeServer>
-      </list>
     </option>
   </component>
 </application>
