@@ -1,6 +1,10 @@
 <code_scheme name="Default" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="300" />
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,span,i,a" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+  </HTMLCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="1" />
     <option name="RIGHT_MARGIN" value="72" />
