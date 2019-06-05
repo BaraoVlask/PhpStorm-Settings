@@ -2,11 +2,12 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".keep" type="Native" />
-      <mapping pattern="Payment" type="PHP" />
       <mapping pattern="times" type="PHP" />
+      <mapping pattern="Payment" type="PHP" />
       <mapping pattern="tokens.txt" type="PLAIN_TEXT" />
       <mapping pattern="Expirados.log" type="PLAIN_TEXT" />
       <mapping ext="gz" type="SQL" />
+      <mapping pattern="analisar" type="Twig" />
       <mapping pattern="comentarios-itens" type="Twig" />
       <mapping pattern="seguidores-itens" type="Twig" />
       <mapping pattern="Errors" type="Log" />
