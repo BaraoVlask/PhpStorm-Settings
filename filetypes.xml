@@ -4,7 +4,6 @@
       <mapping pattern=".keep" type="Native" />
       <mapping pattern="Payment" type="PHP" />
       <mapping pattern="times" type="PHP" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="D" type="PLAIN_TEXT" />
       <mapping pattern="tokens.txt" type="PLAIN_TEXT" />
       <mapping pattern="Expirados.log" type="PLAIN_TEXT" />
