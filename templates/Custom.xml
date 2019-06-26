@@ -8,4 +8,12 @@
       <option name="PHP String Literal" value="true" />
     </context>
   </template>
+  <template name="box" value="&lt;div class=&quot;box&quot;&gt;&#10;    &lt;div class=&quot;box-header&quot;&gt;&#10;        &lt;div class=&quot;box-title&quot;&gt;&#10;            &lt;i class=&quot;fa #[[$Icone$]]#&quot;&gt;&lt;/i&gt; #[[$Titulo$]]#&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;box-body&quot;&gt;&#10;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Box do admin LTE" toReformat="false" toShortenFQNames="true">
+    <variable name="Icone" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Titulo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
