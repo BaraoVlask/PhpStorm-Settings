@@ -1,6 +1,6 @@
 <code_scheme name="Default" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
-  <option name="RIGHT_MARGIN" value="300" />
+  <option name="SOFT_MARGINS" value="120" />
   <HTMLCodeStyleSettings>
     <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,span,i,a" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
@@ -40,7 +40,7 @@
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="ARRAY_INITIALIZER_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
