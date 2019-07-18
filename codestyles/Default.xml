@@ -9,7 +9,8 @@
     <option name="NULL_TYPE_POSITION" value="IN_THE_BEGINNING" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="PHP">
-    <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="2" />
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
