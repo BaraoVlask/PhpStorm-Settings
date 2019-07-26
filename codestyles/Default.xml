@@ -7,6 +7,7 @@
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
     <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="NULL_TYPE_POSITION" value="IN_THE_BEGINNING" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="Blade">
