@@ -1,0 +1,6 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="Macro.::class">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
+  <action id="ShowErrorDescription" />
+</keymap>

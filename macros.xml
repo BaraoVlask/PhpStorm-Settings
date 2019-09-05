@@ -1,0 +1,11 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="::class">
+      <action id="FindNext" />
+      <action id="EditorBackSpace" />
+      <action id="EditorNextWord" />
+      <action id="EditorDelete" />
+      <action id="EditorPaste" />
+    </macro>
+  </component>
+</application>
