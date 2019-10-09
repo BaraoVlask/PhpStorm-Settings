@@ -3,6 +3,16 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
   </HTMLCodeStyleSettings>
+  <MySQLCodeStyleSettings version="2">
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="0" />
+    <option name="QUOTE_IDENTIFIER" value="1" />
+    <option name="QUERY_SECTION_1ST_WORD_ALIGN" value="8" />
+    <option name="QUERY_EL_LINE" value="0" />
+    <option name="IMP_IF_THEN_INDENT_THEN_ELSE" value="true" />
+    <option name="IMP_LOOP_LOOP_WRAP" value="false" />
+    <option name="IMP_LOOP_LOOP_INDENT" value="false" />
+  </MySQLCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
@@ -13,6 +23,9 @@
     <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="NULL_TYPE_POSITION" value="IN_THE_BEGINNING" />
   </PHPCodeStyleSettings>
+  <SqlCodeStyleSettings version="2">
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="id" />
+  </SqlCodeStyleSettings>
   <codeStyleSettings language="Blade">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
@@ -21,6 +34,12 @@
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="MySQL">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
