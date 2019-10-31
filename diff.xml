@@ -33,6 +33,7 @@
       <entry key="Default">
         <PlaceSettings>
           <option name="ENABLE_SYNC_SCROLL" value="false" />
+          <option name="HIGHLIGHT_POLICY" value="DO_NOT_HIGHLIGHT" />
         </PlaceSettings>
       </entry>
     </option>
