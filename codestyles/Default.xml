@@ -1,10 +1,8 @@
 <code_scheme name="Default" version="173">
-  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
-    <option name="ALIGN_INLINE_COMMENTS" value="true" />
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
@@ -18,17 +16,7 @@
     <option name="NULL_TYPE_POSITION" value="IN_THE_BEGINNING" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="PHP">
-    <option name="KEEP_LINE_BREAKS" value="false" />
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
-    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
-    <option name="CLASS_BRACE_STYLE" value="1" />
-    <option name="METHOD_BRACE_STYLE" value="1" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
-    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
-    <option name="IF_BRACE_FORCE" value="3" />
   </codeStyleSettings>
 </code_scheme>
