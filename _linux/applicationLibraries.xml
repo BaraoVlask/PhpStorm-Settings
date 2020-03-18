@@ -1,0 +1,43 @@
+<application>
+  <component name="libraryTable">
+    <library name="leaflet" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.0.3_dist_leaflet.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.0.3_dist_leaflet.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.0.3_dist_leaflet.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.0.3_dist_leaflet.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="leaflet.markercluster" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_MarkerCluster.Default.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_MarkerCluster.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_leaflet.markercluster-src.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_MarkerCluster.Default.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_MarkerCluster.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet.markercluster@1.0.4_dist_leaflet.markercluster-src.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="realworld.388" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_leaflet.github.io_Leaflet.markercluster_example_realworld.388.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_leaflet.github.io_Leaflet.markercluster_example_realworld.388.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
