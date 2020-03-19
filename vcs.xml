@@ -22,9 +22,13 @@
           <option name="url" value="git@gitlab.com:bussolasocial/bussola.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.com:bussolasocial/components.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/bussola" />
+    <option name="cloneParentDir" value="/var/www" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
